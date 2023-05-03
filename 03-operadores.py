@@ -87,7 +87,7 @@ print(animal_doméstico < animal_salvaje)
 #Da TRUE porque lo lee siguiendo el ASCII (Valor número de cada letra)
 
 #COMPARANDO TÉRMINOS NÚMERICOS ASCII
-print ("comparando números")
+print ("Comparando números")
 
 bencina = False
 encendido = True
