@@ -8,8 +8,8 @@ print("Hola soy Diego\n") #Funcion print
 #01 - DECLARANDO VARIABLES
 print("### 01 - DECLARANDO VARIABLES ###\n")
 
-nombre = "Diego" #Variable "nombre" que tiene el valor de "Matias"
-name = "Sebastián" #Variable "name" que tiene el valor de "Daniel"
+nombre = "Diego" #Variable "nombre" que tiene el valor de "Diego"
+name = "Sebastián" #Variable "name" que tiene el valor de "Sebastián"
 edad = 28 #Variable "edad" que tiene como valor el entero "28"
 
 #02 - IMPRESION DE UNA VARIABLE
@@ -40,4 +40,3 @@ print("### 05 - INTRUCCION INPUT ###\n")
 nickname = input("¿Cual es tu nick?\n") #Realiza la pregunta y espera a que se ingrese una cadena de caracteres la cual sera el valor de la variable "nickname"
 print("\nTu nickname es", nickname, "\n")
 
-###
