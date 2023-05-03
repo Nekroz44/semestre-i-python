@@ -14,5 +14,3 @@ dic = {
 }
 
 print(dic)
-
-#Hola1111111
