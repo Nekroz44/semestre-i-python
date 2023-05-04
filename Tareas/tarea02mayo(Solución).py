@@ -1,3 +1,5 @@
+#RETO 2
+
 estudiante = input("Ingresar el nombre del estudiante: ")
 asignatura = input("Ingresar el nombre de la asignatura: ")
 nota1 = float(input("Ingresar la nota del primer laboratorio: "))
