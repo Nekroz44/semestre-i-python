@@ -10,5 +10,6 @@ def frase(i):
 
     print (diccionario)
     
+    
 frase(input("Introduzca una frase: "))
 

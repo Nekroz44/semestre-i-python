@@ -1,33 +1,23 @@
-Habitantes_Rios = 404432
-Superficie_Rios = 18429
-Habitantes_Magallanes = 166533
-Superficie_Magallanes = 1382291
+habitantes_rios = 404432
+superficie_rios = 18429
+habitantes_magallanes = 166533
+superficie_magallanes = 1382291
 
-Densidad_Ríos = Habitantes_Rios / Superficie_Rios
-Densidad_Magallanes = Habitantes_Magallanes / Superficie_Rios
+densidad_ríos = habitantes_rios / superficie_rios
+densidad_magallanes = habitantes_magallanes / superficie_rios
 
 
-print (" {0:.1f}".format (Densidad_Ríos))
-print (" {0:.1f}".format (Densidad_Magallanes))
+print (" {0:.1f}".format (densidad_ríos))
+print (" {0:.1f}".format (densidad_magallanes))
 
 censo2017 = dict(
-    ID_Región1 = "14",
-    Nombre1 = "Los Ríos",
-    Superficie_Km2_1 = "18.429",
-    Habitantes_2017_1 = "404.432", 
-    Densidad1 = "21.9",
-    Capital1 = "Valdivia",
-    Comunas1 = ("Río Bueno", "La Unión", "Paillaco"),
-    Provincias1 = ("Ranco", "Valdivia"),
-
-    ID_Región2 = "12",
-    Nombre2 = "Magallanes",
-    Superficie_Km2_2 = "1.328.291",
-    Habitantes_2017_2 = "166.533",
-    Densidad2 = "9.0",
-    Capital2 = "Punta Arenas",
-    Comunas2 = ("Cabo de Hornos", "Puerto Williams", "Porvenir"),
-    Provincias2 = ("Antártica Chilena", "Magallanes", "Tierra del Fuego", "Última Esperanza"),
+    id_región1 = "14",
+    nombre1 = "Los Ríos",
+    
+    id_región2 = "12",
+    nombre2 = "Magallanes",
     )
 
+censo2017 ["densidad1":densidad_ríos][0][1]
+censo2017 ["densidad2"] = densidad_magallanes
 print (censo2017)

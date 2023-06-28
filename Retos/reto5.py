@@ -1,6 +1,6 @@
 #RETO 5 (23/05/2023)
 
-num = int(input("Ingrese un número "))
+num = int(input("Ingrese un número: "))
 
 i = num + 1
 

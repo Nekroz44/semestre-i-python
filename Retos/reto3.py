@@ -1,4 +1,4 @@
-#RETO 3
+#RETO 3 (03/05/2023)
 
 Ciudades = ["Santiago","Temuco","Osorno","Punta Arenas"]
 CO = [134,99,245,50]
