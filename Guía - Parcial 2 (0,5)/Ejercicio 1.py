@@ -35,7 +35,7 @@ def suma_impar(num_list):
             suma_impar = suma_impar + i
     return suma_impar
 
-print('\n #=#=#=#=[ EJERCICIO 1 v]=#=#=#=#\n')    
+print('\n #=#=#=#=[ EJERCICIO 1 ]=#=#=#=#\n')    
         
 num = num_cant()
 num_list = pedir(num)

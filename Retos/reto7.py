@@ -1,4 +1,4 @@
-#-#-#-#-#-# RETO 7 #-#-#-#-#-#
+#RETO 7 (30/05/2023)
 
 def frase(i):
     palabra = i.split()   
@@ -10,5 +10,5 @@ def frase(i):
 
     print (diccionario)
     
-frase(input("Introduzca una frase "))
+frase(input("Introduzca una frase: "))
 

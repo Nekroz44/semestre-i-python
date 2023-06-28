@@ -1,4 +1,4 @@
-#EJERCICIO DE PACIENTES
+#RETO 4 (04/05/2023)
 
 print("\n# NOMBRE DE LOS PACIENTES\n")
 
@@ -52,5 +52,3 @@ Tuplafinal = [(Tupla1),(Tupla2),(Tupla3)]
 #RESULTADO FINAL
 
 print("Los datos quedaron conformados de la siguiente manera: ",Tuplafinal)
-
-#ISDIGIT (EVITA QUE EN LA SENTENCIA SE INCLUYAN VALORES NUMÉRICOS)

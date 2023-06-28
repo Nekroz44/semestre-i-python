@@ -1,4 +1,4 @@
-#""""EJERCICIO 2""""
+##EJERCICIO2##
 
 i = sum(range(500,810,10))
 print(i) 

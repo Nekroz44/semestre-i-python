@@ -1,4 +1,4 @@
-#RETO 5 
+#RETO 5 (23/05/2023)
 
 num = int(input("Ingrese un número "))
 
@@ -9,9 +9,14 @@ if num % 2 == 0:
 else:
     print ("- Es número impar")
 
-if num / num = 1:
+if num % 2 == 1:
     print ("- Es un número primo")
+elif num == 2:
+    print("- Es un número primo")
+else:
+    print ("- No es un número primo")
 
+    
 if num > 50:
     print ("- Es mayor a 50")
 elif num == 50:

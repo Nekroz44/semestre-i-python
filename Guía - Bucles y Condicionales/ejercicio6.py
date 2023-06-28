@@ -1,4 +1,4 @@
-#""""""EJERCICIO 6 """"""
+######EJERCICIO 6######
 
 import time
 for hora in range(24):

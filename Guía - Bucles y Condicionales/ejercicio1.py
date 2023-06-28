@@ -1,4 +1,4 @@
-# """"""EJERCICIO 1"""""""
+#EJERCICIO1#
 
 lista = ("La Universidad de los Lagos es una institucion estatal fundada en 1993. Esta universidad regional entrega una contribucion significativa al desarrollo sostenible en el territorio .Como Universidad sus pilares fundamentales se basan en la inclusion, pluralismo, conciencia ambiental y participacion democratica")
 

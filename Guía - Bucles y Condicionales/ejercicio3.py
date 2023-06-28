@@ -1,4 +1,4 @@
-#""""EJERCICIO 3"""""
+###EJERCICIO 3###
 
 hora_diu = 12000
 hora_noc = 16000
