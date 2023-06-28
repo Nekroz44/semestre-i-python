@@ -153,7 +153,7 @@ print("Suma de tuplas:", grupo1 + grupo2)
 #Obteniedo un trozo de la tupla
 print("Trozo de la tupla:", grupo2[0:3])
 
-#¿Entonces como no puedo modificar una tupla?
+#¿Entonces como puedo modificar una tupla?
 grupo1 = list(grupo1)
 print("La tupla ahora es de tipo:", type(grupo1), "\n")
 
