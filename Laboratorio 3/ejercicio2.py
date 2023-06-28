@@ -2,38 +2,51 @@
 
 #ITEM A
 
+print ("\nITEM A\n")
+
 a = [21,8,15,3,12]
 b = [10,9,12,15,18]
 c = [2,3,8,9,12]
 
-Fulllist = a + b + c   
+list_full = a + b + c   
 
-print (Fulllist)
+print (list_full)
 
 #ITEM B
 
-Fulllist.insert(-1,20)
+print("\nITEM B\n")
 
-print(Fulllist)
+list_full.insert(-1,20)
+
+print(list_full)
 
 #ITEM C
 
-Fulllist.sort(reverse = True)
-print(Fulllist)
+print("\nITEM C\n")
+
+list_full.sort(reverse = True)
+print(list_full)
 
 #ITEM D
 
-listanueva = [4,5,6]
-Fulllist.append(listanueva)
+print("\nITEM D\n")
 
-print(Fulllist)
+listanueva = [4,5,6]
+list_full.append(listanueva)
+print(list_full)
 
 #ITEM E
 
-for i in Fulllist:
- sum(Fulllist)
+print("\nITEM E\n")
 
+sum_sublist = listanueva[-1] + listanueva[-2] + listanueva[-3]
+sum_list_full = list_full[0]+list_full[1]+list_full[2]+list_full[3]+list_full[4]+list_full[5]+list_full[6]+list_full[7]+list_full[8]+list_full[9]+list_full[10]+list_full[11]+list_full[12]+list_full[13]+list_full[14]+list_full[15]
+final_list = sum_sublist + sum_list_full
+print(final_list)
 
 #ITEM F
 
-#Ya profe me faltó pero igual le puse empeño, considere eso de su noble estudiante :D
+print("\nITEM F\n")
+
+promedio = (final_list) / 19
+print (round(promedio, 2))
