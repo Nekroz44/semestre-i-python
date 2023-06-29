@@ -3,15 +3,16 @@
 Ciudades = ["Santiago","Temuco","Osorno","Punta Arenas"]
 CO = [134,99,245,50]
 
-Índice_Mínimo = min(CO)
-Índice_Máximo = max(CO)
+max_indice = max(CO)
+min_indice = min(CO)
 
-CiudadconMaxIndice = Ciudades[CO.index(Índice_Mínimo)]
-CiudadconMinIndice = Ciudades[CO.index(Índice_Máximo)]
+city_max = Ciudades[CO.index(max_indice)]
+city_min = Ciudades[CO.index(min_indice)]
 
-print("La ciudad con el índice más alto es", CiudadconMaxIndice , Índice_Máximo)
-print("La ciudad con el índice más bajo es", CiudadconMinIndice , Índice_Mínimo)
+print("Las ciudad con el índice más bajo de aire es:",city_min)
+print("Las ciudade con el índice más alto de aire es:",city_max)
 
 
  
+
 
