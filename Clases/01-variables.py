@@ -40,3 +40,24 @@ print("### 05 - INTRUCCION INPUT ###\n")
 nickname = input("¿Cual es tu nick?\n") #Realiza la pregunta y espera a que se ingrese una cadena de caracteres la cual sera el valor de la variable "nickname"
 print("\nTu nickname es", nickname, "\n")
 
+nombre1 = input('¿Cual es tu nombre?: \n')
+
+print('Su nombre es:',nombre1)
+
+#El \n sirve para bajar una linea.
+#El identificador de una variable es su nombre.
+
+#Se puede asignar varias variables a la vez, separandolas por comas. No es muy recomendable
+
+ciudad, region, pais, year = "La Union", "Los Rios", "Chile", 2023
+
+print(f"Hola vivo en {ciudad}, en la región de {region}, en el país de {pais}, y es el año {year}")
+
+# CONSTANTES
+
+# En Python no existen las constantes, por convención se identifican y se declaran con mayusculas
+# como se muestra a continuación'''
+
+PI = 3.14
+
+CIUDAD = "La Union"

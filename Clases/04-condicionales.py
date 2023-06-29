@@ -35,20 +35,3 @@ if not bencina or (encendido and edad >= 17):
 else: 
     print("El auto no puede avanzar")
 
-#WHILE 
-
-edad = 18
-num = 0
-
-#BUCLES INFINITOS
-
-while edad < 18:
-    print("Edad inválida")
-
-#Que hace este bucle?
-
-while num <= 100:
-    print(num)
-    num += 2
-    #Es lo mismo a num = num + 2
-print("Primer bucle finalizado")
