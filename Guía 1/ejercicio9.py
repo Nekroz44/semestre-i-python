@@ -1,4 +1,4 @@
-####EJERCICIO 9####
+#########EJERCICIO 9#########
 
 num = [4,3,8,12,6,10,14,3,6]
 
@@ -28,17 +28,17 @@ print (num_no_repeat)
 
 #MEDIA ARITMÉTICA
 
-list_ordenados = sorted(num)
+list_ordenados = sorted(num_no_repeat)
 
 print (list_ordenados)
 
-MA = sum(num) / len(num)
+MA = sum(num_no_repeat) / len(num_no_repeat)
 print (round(MA, 2))
 
 #MEDIANA
 
 if len(list_ordenados) % 2 == 0:
-    mediana_pos_1 = (len(list_ordenados) / 2) -1
+    mediana_pos_1 = (len(list_ordenados) // 2) - 1
     mediana_pos_2 = mediana_pos_1 + 1
 
     mediana = (list_ordenados[mediana_pos_1] + list_ordenados[mediana_pos_2]) / 2

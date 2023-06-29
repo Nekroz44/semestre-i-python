@@ -1,9 +1,10 @@
-####EJERCICIO 7 ####
+#######EJERCICIO 7#######
 
-trabajadores = ["Ramiro", "Ernesto", "Alex", "Pablo", "Fernando"]
-edad_tra = [48, 21, 53, 37, 40]
+workers = ["Ramiro", "Ernesto", "Alex", "Pablo", "Fernando"]
+ages = [48, 21, 53, 37, 40]
 
-Resultado = 
+info = workers + ages
    
-print(Resultado)
+info = tuple((zip(workers, ages)))
+print(info)
 
